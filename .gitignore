@@ -1,0 +1,27 @@
+# Datos (se descargan con data/download.py)
+data/raw/
+data/yolo/
+*.zip
+
+# Resultados pesados de entrenamiento (los pesos finales van en GitHub Releases)
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Credenciales
+kaggle.json
+.env
+
+# Python / entornos
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
