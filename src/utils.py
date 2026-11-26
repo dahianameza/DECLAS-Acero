@@ -78,6 +78,8 @@ def overlay_masks(gray: np.ndarray, masks: np.ndarray, alpha: float = 0.45) -> n
     """Superpone máscaras por clase (C, H, W) sobre una imagen gris -> BGR."""
     import cv2
     from config import CLASS_COLORS
+    if gray.ndim == 3 and gray.shape[2] == 1:   # Ultralytics devuelve grises como (H, W, 1)
+        gray = gray[..., 0]
     bgr = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR) if gray.ndim == 2 else gray.copy()
     out = bgr.copy()
     for c in range(masks.shape[0]):
