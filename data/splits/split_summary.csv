@@ -1,0 +1,4 @@
+split,imagenes,con_defecto,clase_1,clase_2,clase_3,clase_4,pct_con_defecto
+train,8905,4766,622,175,3704,575,53.5
+val,1795,927,126,26,715,114,51.6
+test,1868,973,149,46,731,112,52.1
