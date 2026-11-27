@@ -1,4 +1,4 @@
-"""Particiones train / val / test SIN fuga de información (indicador B3).
+"""Particiones train / val / test SIN fuga de información.
 
 Problema: Severstal no trae ID de bobina ni de lámina, y existen imágenes casi
 duplicadas (recortes contiguos o repetidos de la misma lámina). Si una cae en

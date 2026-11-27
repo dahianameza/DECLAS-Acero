@@ -3,7 +3,7 @@
 Requisitos (una sola vez):
   1. Tener cuenta de Kaggle y ACEPTAR las reglas de la competencia en
      https://www.kaggle.com/competitions/severstal-steel-defect-detection/rules
-  2. Crear un token en Kaggle > Settings > API > "Create New Token" y guardar
+  2. Crear un token en Kaggle > Settings > API > "Create Legacy API Key"y guardar
      kaggle.json en ~/.kaggle/ (Linux/Mac) o C:\\Users\\<usuario>\\.kaggle\\ (Windows).
 
 Uso:
